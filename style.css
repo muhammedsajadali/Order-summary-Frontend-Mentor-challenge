@@ -1,0 +1,143 @@
+:root{
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 97%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --font: "RED HAT", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    min-height: 100vh;
+    /* background: var(--very-pale-blue) url(./images/pattern-background-desktop.svg) no-repeat; */
+    background-color: rgb(41, 8, 8);
+    background-size: 100% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+    font-size: 16px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+    animation-name: intromation;
+    animation-duration: .5s;
+}
+
+@keyframes intromation {
+    from{
+        opacity: 0;
+        display: none;
+    }
+}
+
+.image-container{
+    height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+}
+
+img{
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+.description-container h1{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.description-container p{
+    color:var(--desaturated-blue);
+    line-height: 1.7rem;
+    font-weight: 700;
+}
+
+.description-container p+p+p{
+    padding: 0 0 1.25rem 0 ;
+}
+
+.plan-duration-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22rem;
+    height: 5rem;
+    border-radius: 10px;
+    background-color: var(--very-pale-blue);
+    margin:0 0 1.25rem 0;
+}
+
+.plan-duration-container img{
+    border-radius: 50px;
+    margin:0 0 0 1rem;
+}
+
+#annual-plan-txt{
+    font-weight: 900;
+    padding:0 0 .2rem 0;
+}
+
+.duration-and-cost-container{
+    position: relative;
+    right:3rem;
+}
+
+#price-year-txt{
+    padding:.2rem 0 0 0;
+    color:var(--desaturated-blue);
+    font-weight: 700;
+}
+
+#change-plan{
+    font-size:.875rem ;
+    font-weight: 700;
+    color:var(--bright-blue);
+    text-decoration: underline;
+    margin:0 1rem 0 0;
+}
+
+#payment-btn{
+    color:#fff;
+    font-weight: 900;
+    width: 22rem;
+    height: 2.5rem;
+    background-color: var(--bright-blue);
+    border: none;
+    border-radius: 8px;
+    margin:0 0 1.25rem 0;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+
+#cancel-btn{
+    border:none;
+    background: none;
+    font-weight: 900;
+    color:var(--desaturated-blue);
+    margin:0 0 2.50rem 0;
+}
+
+
+@media screen and (max-width:1200px) {
+    body{
+        /* background: url(./images/pattern-background-mobile.svg) no-repeat; */
+        background-color: black;
+        background-size: 100% auto;
+        min-width: 100vh;
+    }
+}
