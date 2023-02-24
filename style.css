@@ -15,7 +15,7 @@
 
 body{
     min-height: 100vh;
-    /* background: var(--very-pale-blue) url(./images/pattern-background-desktop.svg) no-repeat; */
+    background: var(--very-pale-blue) url(./images/pattern-background-desktop.svg) no-repeat;
     background-color: rgb(41, 8, 8);
     background-size: 100% auto;
     display: flex;
@@ -135,7 +135,7 @@ img{
 
 @media screen and (max-width:1200px) {
     body{
-        /* background: url(./images/pattern-background-mobile.svg) no-repeat; */
+        background: url(./images/pattern-background-mobile.svg) no-repeat;
         background-color: black;
         background-size: 100% auto;
         min-width: 100vh;
