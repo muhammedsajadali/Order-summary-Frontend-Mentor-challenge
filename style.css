@@ -4,7 +4,7 @@
     --very-pale-blue: hsl(225, 100%, 97%);
     --desaturated-blue: hsl(224, 23%, 55%);
     --dark-blue: hsl(223, 47%, 23%);
-    --font: "RED HAT", sans-serif;
+    --font:'Red Hat Display', sans-serif;
 }
 
 *{
