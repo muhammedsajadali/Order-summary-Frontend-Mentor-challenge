@@ -161,6 +161,10 @@ img{
         margin: 1rem 1rem;
     }
 
+    img{
+    border-radius: 20px 20px 0 0;
+    }
+
     .image-container,
     .image-container>img
     {
