@@ -195,6 +195,6 @@ img{
 
 @media screen and (max-width:498px) {
    .duration-and-cost-container{
-    left:-.75%;
+    /*left:-.75%;*/
    }
 }
