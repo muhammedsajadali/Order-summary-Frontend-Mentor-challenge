@@ -7,8 +7,8 @@
 
 <div align="center">
 
-[Live]()
-| [Solution]()
+[Live](https://muhammedsajadali.github.io/Order-summary-Frontend-Mentor-challenge/)
+| [Solution](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub)
 | [Challenge](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 
 This is a solution to the [Order Summary challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
