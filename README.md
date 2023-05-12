@@ -1,5 +1,5 @@
 
-![Order Summary](Here paste link of project screenshot)
+![Order Summary](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/gh4wbxnbnf9wqezb0b6y.jpg)
 
 
 
@@ -7,11 +7,11 @@
 
 <div align="center">
 
-[Live](paste the live link of the solution)
-| [Solution](paste the link of solution)
-| [Challenge](paste the link of challenge)
+[Live]()
+| [Solution]()
+| [Challenge](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 
-This is a solution to the [Order Summary challenge on Frontend Mentor](the link of challenge)
+This is a solution to the [Order Summary challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 
 </div>
 
